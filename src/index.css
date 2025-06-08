@@ -1,0 +1,13 @@
+/* Start of Navbar styling */
+.nav-link-hover {
+  font-size: 20px;  
+  color: black; 
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+ .nav-link-hover:hover { 
+  color: red;
+  transform: translateY(-2px);
+  text-decoration: underline; 
+}
+/* End of Navbar styling */
