@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// const Hero = () => {
-//   return (
-//     <div>Hero</div>
-//   )
-// }
-
-// export default Hero
-
-
-
 
 import React from "react";
 import "./Hero.css";
@@ -18,7 +6,7 @@ const Hero = () => {
   return (
 //  <div className="hero-section d-flex"> 
 
-    <div className="container py-5 mt-5 hero-background    ">
+    <div id="home" className="container py-5 mt-5 hero-background    ">
       <div className="row align-items-center">
         <div className="col-md-6 text-center text-md-start">
           <h1 className="display-4 "> Hi, I'm Enyim Chinonso <br />(Frontend Developer) <br /> Welcome to my Online Portfolio website <br /></h1>
@@ -35,7 +23,7 @@ const Hero = () => {
         </div>
         <div className="col-md-6 text-center mt-4 mt-md-0">
           <img
-            src="public/IMG_20240131_095209_547.jpg"
+            src="/public/IMG_20240131_095209_547.jpg"
             alt="Hero image"
             className="img-fluid rounded"
             style={{ maxHeight: "350px" }}

@@ -15,3 +15,8 @@
   background-color: rgb(206, 231, 154) !important;
 }
 /* End of Navbar styling */
+
+
+html {
+  scroll-behavior: smooth;
+}
