@@ -1,0 +1,49 @@
+// import React from 'react'
+
+// const Hero = () => {
+//   return (
+//     <div>Hero</div>
+//   )
+// }
+
+// export default Hero
+
+
+
+
+import React from "react";
+import "./Hero.css";
+
+const Hero = () => {
+  return (
+//  <div className="hero-section d-flex"> 
+
+    <div className="container py-5 mt-5 hero-background    ">
+      <div className="row align-items-center">
+        <div className="col-md-6 text-center text-md-start">
+          <h1 className="display-4 "> Hi, I'm Enyim Chinonso <br />(Frontend Developer) <br /> Welcome to my Online Portfolio website <br /></h1>
+          <p className="lead">I build, design and maintain scalable and secured web applications using HTML, CSS, BOOTSTRAP, JAVASCRIPT, <br /> REACT etc.
+          </p>
+           <div className="d-flex justify-content-center gap-3 mt-4">
+          <a href="#services" className="btn btn-outline-primary btn-lg">
+            Let's Talk
+          </a>
+          <a href="#more" className="btn btn-outline-primary btn-lg">
+            Hire Me
+          </a>
+        </div>
+        </div>
+        <div className="col-md-6 text-center mt-4 mt-md-0">
+          <img
+            src="public/IMG_20240131_095209_547.jpg"
+            alt="Hero image"
+            className="img-fluid rounded"
+            style={{ maxHeight: "350px" }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

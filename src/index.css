@@ -9,5 +9,9 @@
   color: red;
   transform: translateY(-2px);
   text-decoration: underline; 
+ }
+
+ .navbar-color {
+  background-color: rgb(206, 231, 154) !important;
 }
 /* End of Navbar styling */

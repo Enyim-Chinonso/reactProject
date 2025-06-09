@@ -2,7 +2,8 @@ import React from 'react'
 
 const Career = () => {
   return (
-    <>
+    <div className='d-flex'>
+    <div className='ms-5 mt-5'>
        <h1 style={{color:"red"}}>My Goals/Visions</h1>
         <p>I am a professional and certified Software Engineer. <br /> I build and develop scalable and responsive website and web applications. <br /> I have delivered a whole lot of projects people use without glitches.</p>
         <ul>
@@ -12,7 +13,8 @@ const Career = () => {
             <li>I must worship God in truth and in spirit throughout my entire life.</li>
             <li>I must be a Doctorate degree holder (PhD) on or before 42 years of my age.</li>
         </ul>
-    </>
+    </div>
+    </div>
   )
 }
 
