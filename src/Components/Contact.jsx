@@ -29,17 +29,7 @@
 //           </form>
 //         </div>
 
-//         <div className="col-md-6 mt-4 mt-md-0">
-//           <h5>Email</h5>
-//           <p>enyimchinonso23@gmail.com</p>
-//           <h5>Phone</h5>
-//           <p>+234 810 811 1761</p>
-//           <h5>Socials</h5>
-//           <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="me-3">LinkedIn</a>
-//           <a href="https://github.com/Enyim-Chinonso" target="_blank" rel="noopener noreferrer" className="me-3">GitHub</a>
-//           <a href="https://github.com/Enyim-Chinonso" target="_blank" rel="noopener noreferrer" className="me-3">Facebook</a>
-//           <a href="https://github.com/Enyim-Chinonso" target="_blank" rel="noopener noreferrer" className="me-3">WhatsApp</a>
-//         </div>
+//        
 //       </div>
 //     </section>
 //   );
@@ -203,7 +193,7 @@ const ContactForm = () => {
 
   return (
     <div className="container py-5" id="contact">
-      <h2 className="mb-4">Contact Me</h2>
+      <h1 className="mb-4">Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label>Your Name</label>
@@ -246,7 +236,21 @@ const ContactForm = () => {
         </button>
 
         {status && <div className="mt-3">{status}</div>}
-      </form>
+      </form> <br />
+
+       <div className="col-md-6 mt-4 mt-md-0">
+          <h5>Email</h5>
+           <p>enyimchinonso23@gmail.com</p>
+          <h5>Phone</h5>
+           <p>+234 810 811 1761</p>
+           <h5>Socials</h5>
+           <a href="https://www.linkedin.com/in/chinonso-enyim-1435762a1/" target="_blank" rel="noopener noreferrer" className="me-3">LinkedIn</a>
+           <a href="https://github.com/Enyim-Chinonso" target="_blank" rel="noopener noreferrer" className="me-3">GitHub</a>
+           <a href="https://facebook.com/Chinonso Enyim" target="_blank" rel="noopener noreferrer" className="me-3">Facebook</a>
+           <a href="https://wa.me/8108111761" target="_blank" rel="noopener noreferrer" className="me-3">WhatsApp</a>
+         </div>
+
+
     </div>
   );
 };
