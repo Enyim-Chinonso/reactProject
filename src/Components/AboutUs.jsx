@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section id='about' className="container py-5">
       <div className="row align-items-center">    
           <h1 className="mb-3">About Me</h1>        
-          <p style={{fontSize: 25}}>
+          <p style={{fontSize: 25}} className='d-none d-lg-block'>
             I am a hardworking, dedicated, fanatical, professional and dynamic Software Engineer with expertise in effective communication, teamwork and collaborations. I build, design and maintain scalable websites and web applications using HTML, CSS, BOOTSTRAP, JAVASCRIPT and REACT. I work with a team of highly talented and experienced developers and engineers to deliver solutions that solve our clients', users' and humanity's problems.  <br /> <br />
             
             I also contribute to the codebase, documentation, testing and deployment of our projects.
