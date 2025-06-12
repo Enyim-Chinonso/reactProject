@@ -1,4 +1,3 @@
-
 // import React from "react";
 // import "./Contact.css";
 
@@ -29,23 +28,11 @@
 //           </form>
 //         </div>
 
-//        
+//
 //       </div>
 //     </section>
 //   );
 // };
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React, { useState } from "react";
 
@@ -142,20 +129,13 @@
 
 // export default Contact;
 
-
-
-
-
-
-
-
 import React, { useState } from "react";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: ""
+    message: "",
   });
 
   const [status, setStatus] = useState("");
@@ -163,7 +143,7 @@ const ContactForm = () => {
   const handleChange = (e) => {
     setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
   };
 
@@ -175,9 +155,9 @@ const ContactForm = () => {
       const response = await fetch("https://formspree.io/f/mblygpry", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(formData),
       });
 
       if (response.ok) {
@@ -200,6 +180,7 @@ const ContactForm = () => {
           <input
             type="text"
             name="name"
+            id="name"
             className="form-control"
             value={formData.name}
             onChange={handleChange}
@@ -212,6 +193,7 @@ const ContactForm = () => {
           <input
             type="email"
             name="email"
+            id="email"
             className="form-control"
             value={formData.email}
             onChange={handleChange}
@@ -223,6 +205,7 @@ const ContactForm = () => {
           <label>Your Message</label>
           <textarea
             name="message"
+            id="message"
             className="form-control"
             rows="5"
             value={formData.message}
@@ -236,21 +219,47 @@ const ContactForm = () => {
         </button>
 
         {status && <div className="mt-3">{status}</div>}
-      </form> <br />
-
-       <div className="col-md-6 mt-4 mt-md-0">
-          <h5>Email</h5>
-           <p>enyimchinonso23@gmail.com</p>
-          <h5>Phone</h5>
-           <p>+234 810 811 1761</p>
-           <h5>Socials</h5>
-           <a href="https://www.linkedin.com/in/chinonso-enyim-1435762a1/" target="_blank" rel="noopener noreferrer" className="me-3">LinkedIn</a>
-           <a href="https://github.com/Enyim-Chinonso" target="_blank" rel="noopener noreferrer" className="me-3">GitHub</a>
-           <a href="https://facebook.com/Chinonso Enyim" target="_blank" rel="noopener noreferrer" className="me-3">Facebook</a>
-           <a href="https://wa.me/8108111761" target="_blank" rel="noopener noreferrer" className="me-3">WhatsApp</a>
-         </div>
-
-
+      </form>{" "}
+      <br />
+      <div className="col-md-6 mt-4 mt-md-0">
+        <h5>Email</h5>
+        <p>enyimchinonso23@gmail.com</p>
+        <h5>Phone</h5>
+        <p>+234 810 811 1761</p>
+        <h5>Socials</h5>
+        <a
+          href="https://www.linkedin.com/in/chinonso-enyim-1435762a1/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="me-3"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/Enyim-Chinonso"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="me-3"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://facebook.com/Chinonso Enyim"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="me-3"
+        >
+          Facebook
+        </a>
+        <a
+          href="https://wa.me/8108111761"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="me-3"
+        >
+          WhatsApp
+        </a>
+      </div>
     </div>
   );
 };

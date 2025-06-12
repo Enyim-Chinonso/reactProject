@@ -1,6 +1,8 @@
 
-body {
-  background-color: #f0f0f0;
+html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    background-color: #f0f0f0;
 }
 
 /* Start of Navbar styling */
@@ -25,3 +27,14 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+

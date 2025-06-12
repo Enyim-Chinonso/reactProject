@@ -13,17 +13,16 @@ const list = [
 ];
 const Services = () => {
   return (
-     <section id='services' style={{fontSize: 25}} className="container py-5">
+    <section id="services" className="container py-5 fs-5 fs-md-4 fs-lg-3">
       <div className="row align-items-center">
         <h1>Services</h1>
-      <ul>
-        {list.map((list, index) => (
-          <li key={index}> {list} </li>
-        ))}
-        
-      </ul>
+        <ul>
+          {list.map((list, index) => (
+            <li key={index}> {list} </li>
+          ))}
+        </ul>
       </div>
-      </section>
+    </section>
   );
 };
 
