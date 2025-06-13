@@ -28,8 +28,23 @@
 
 
 
-.hero-background {
+/* .hero-background {
   background-color: #f0f0f0;
   width: 100%;
   overflow-x: hidden; /* prevent horizontal scroll */
+} */
+.hero-section {
+  background: linear-gradient(to right, #f0f4ff, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-size: 2.8rem;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
