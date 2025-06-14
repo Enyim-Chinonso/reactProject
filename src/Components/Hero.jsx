@@ -8,16 +8,9 @@ const Hero = () => {
       <div className="row align-items-center">
         <div className="col-md-6 text-center text-md-start">
           <h1 className="display-9 ">
-            Hi, I'm Enyim Chinonso (Frontend Developer). <br />  Welcome to my Online
+            Hi, I'm Enyim Chinonso (Frontend Developer) <br />  Welcome to my Online
             Portfolio website.
           </h1>
-          {/* <h1 className="display-4 ">
-            {" "}
-            Hi, I'm Enyim Chinonso <br />
-            (Frontend Developer) <br /> Welcome to my Online Portfolio website.{" "}
-            <br />
-          </h1> */}
-
           <p className="lead">
             I build, design and maintain scalable and secured web applications
             using HTML, CSS, BOOTSTRAP, JAVASCRIPT, <br /> REACT etc.

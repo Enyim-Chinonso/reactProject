@@ -1,6 +1,7 @@
-import TicketImage from "../assets/Ticket image.png"
+// import TicketImage from "../assets/Ticket image.png"
+import TicketImage from "../assets/TicketTask2.png"
 import Calculator from "../assets/Calculator image.png"
-import Figma from "../assets/Figma image.png"
+import Figma from "../assets/FigmaImage.png"
 import Udemy from "../assets/Udemi image.png"
 import TODO from "../assets/TODO image.png"
 // import todoImage from "../assets/project-images/todo.png";

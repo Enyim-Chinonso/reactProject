@@ -218,8 +218,7 @@ const ContactForm = () => {
           Send Message
         </button>
 
-        {status && <div className="mt-3">{status}</div>}
-      </form>{" "}
+      </form>
       <br />
       <div className="col-md-6 mt-4 mt-md-0">
         <h5>Email</h5>
@@ -258,6 +257,14 @@ const ContactForm = () => {
           className="me-3"
         >
           WhatsApp
+        </a>
+        <a
+          href="https://slack.com/Enyim Chinonso"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="me-3"
+        >
+          Slack
         </a>
       </div>
     </div>
