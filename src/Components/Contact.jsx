@@ -257,7 +257,7 @@ const ContactForm = () => {
           className="me-3"
         >
           WhatsApp
-        </a>
+        </a> <br />
         <a
           href="https://slack.com/Enyim Chinonso"
           target="_blank"
